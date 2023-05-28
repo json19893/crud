@@ -1,0 +1,74 @@
+
+
+  .mat-tab-header{
+    width:100%;
+  }
+  .menu-tol{
+   background-color: rgb(4, 25, 160);
+   color: aliceblue;
+  }
+
+  .logo{
+    height: 50px;
+    width: 220px;
+  }
+
+.contenedor{
+  width:auto;
+  height: auto;
+  background: rgba(249, 248, 248, 0.866);
+
+}
+
+.contenedor2{
+  width:auto;
+  height: auto;
+  background: rgb(240, 235, 235);
+
+}
+
+.example-container {  
+  width:auto;
+  height: 90vh;
+  background-color: rgb(236, 235, 242);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: rgba(12, 15, 240, 0.42);
+}
+.example-sidenav {
+   user-select: none;
+   background-color: rgba(11, 3, 171, 0.923);
+   
+}
+.full-width {
+  width: 100%;
+}
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+}
+.menu-button.rotated {
+  transform: rotate(180deg);
+}
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+}
+.submenu.expanded {
+  transform: scaleY(1);
+}
+
+.parent{
+  height: 50vh;
+  }
+  .letra{
+    color: aliceblue;
+   
+  }

@@ -1,0 +1,34 @@
+
+<mat-toolbar color="primary" class="menu-tol">
+	<button mat-icon-button (click)="isExpanded = !isExpanded"><mat-icon>menu</mat-icon></button>
+  <span></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img  src="./assets/img/logo.png" class="logo" >
+         <span class="example-spacer"></span>       
+
+</mat-toolbar>
+<mat-sidenav-container class="example-container" autosize>
+	<mat-sidenav #sidenav class="example-sidenav" mode="side" opened="true" (mouseenter)="mouseenter()" (mouseleave)="mouseleave()">
+		<mat-nav-list>
+      <mat-list-item (click)="homeFuncion()">
+				<span class="full-width letra" *ngIf="isExpanded || isShowing">Inicio</span>
+				<mat-icon  [ngStyle]="{'color':'aliceblue'}" mat-list-icon>home</mat-icon>
+			</mat-list-item>
+      <mat-list-item mat-button (click)="gameFuncion()">
+				<span class="full-width letra" *ngIf="isExpanded || isShowing">Alumnos</span>
+				<mat-icon  [ngStyle]="{'color':'aliceblue'}" mat-list-icon>assignment_ind</mat-icon>
+      </mat-list-item>
+  
+  
+		</mat-nav-list>
+
+	</mat-sidenav>
+
+    <mat-card class="contenedor">
+        <mat-card class="contenedor2">
+          <app-home *ngIf="game=='false' ||game==undefined||home=='true' "></app-home>
+          <app-game *ngIf="game=='true'"></app-game>
+     
+        </mat-card>
+      
+      </mat-card>
+</mat-sidenav-container>

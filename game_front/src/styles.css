@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("http://fonts.googleapis.com/css?family=Montserrat:light");
+html, body { height: 100%; overflow: hidden;}
+body { margin: 0; font-family: Roboto, "Montserrat', sans-serif";  background: rgb(255, 252, 252);}
+tr:nth-child(even) {
+    background-color: #f3f0f0;
+  }
+
+  .mat-header-cell {
+    text-align: center;
+    background: rgb(12, 37, 231);
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+  
+  }
+  .mat-cell{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+   
+  }
+
+  .mat-cell:hover{
+    transform: scale(.98);
+    transition: .4s ease;
+  }
+  table {
+    width: 100%;
+  }
+
+  .title-center2 {
+    flex: 1 1 auto;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  
+    
+  }
