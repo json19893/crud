@@ -1,0 +1,17 @@
+.title-center2 {
+  flex: 1 1 auto;
+  font-size: 20px;
+  text-align: left;
+  color: rgb(5, 5, 5);
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.example-container mat-form-field+mat-form-field {
+  margin-left: 40px;
+}
+
+::ng-deep .mat-table .mat-cell {
+  border-bottom-color: rgb(0, 0, 0); /* Cambia el color del borde inferior */
+}

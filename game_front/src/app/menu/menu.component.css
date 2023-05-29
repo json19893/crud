@@ -1,0 +1,74 @@
+
+
+  .mat-tab-header{
+    width:100%;
+  }
+  .menu-tol{
+   background-color: rgb(0, 0, 0);
+   color: rgb(253, 0, 0);
+  }
+
+  .logo{
+    height: 50px;
+    width: 220px;
+  }
+
+.contenedor{
+  width:auto;
+  height: auto;
+  background: rgb(253, 0, 0);
+
+}
+
+.contenedor2{
+  width:auto;
+  height: auto;
+  background: rgb(245, 245, 245);
+
+}
+
+.example-container {  
+  width:auto;
+  height: 90vh;
+  background-color: rgb(253, 0, 0);
+}
+.example-sidenav-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background:  rgb(0, 0, 0);
+}
+.example-sidenav {
+   user-select: none;
+   background-color:  rgb(0, 0, 0);
+   
+}
+.full-width {
+  width: 100%;
+}
+.menu-button {
+  transition: 300ms ease-in-out;
+  transform: rotate(0deg);
+}
+.menu-button.rotated {
+  transform: rotate(180deg);
+}
+.submenu {
+  overflow-y: hidden;
+  transition: transform 300ms ease;
+  transform: scaleY(0);
+  transform-origin: top;
+  padding-left: 30px;
+}
+.submenu.expanded {
+  transform: scaleY(1);
+}
+
+.parent{
+  height: 50vh;
+  }
+  .letra{
+    color: rgb(253, 0, 0);
+   
+  }
