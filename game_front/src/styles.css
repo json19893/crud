@@ -8,7 +8,7 @@ tr:nth-child(even) {
 
   .mat-header-cell {
     text-align: center;
-    background: rgb(12, 37, 231);
+    background: rgb(0, 0, 0);
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;

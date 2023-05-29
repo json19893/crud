@@ -1,6 +1,6 @@
 <mat-divider></mat-divider>
 <br>
-<span class="title-center2"> Listado de alumnos</span>
+<span class="title-center2"> Listado de juegos</span>
 <br><br>
 <mat-divider></mat-divider>
 <br><br>
@@ -8,11 +8,11 @@
   <form class="example-form" [formGroup]="formRegister" (ngSubmit)="agregar()" novalidate>
     <mat-form-field appearance="fill">
       <mat-label>Nombre</mat-label>
-      <input matInput formControlName="nombre" required minlength="4" maxlength="20">
+      <input matInput formControlName="nombre" required minlength="" maxlength="20">
     </mat-form-field>
     <mat-form-field appearance="fill">
       <mat-label>Descripcion</mat-label>
-      <input matInput formControlName="descripcion" value="game.descripcion" required minlength="4" maxlength="20">
+      <input matInput formControlName="descripcion" value="game.descripcion" required minlength="" maxlength="20">
     </mat-form-field>
 
     <mat-form-field appearance="fill">
