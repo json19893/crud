@@ -9,8 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import tecnm.game.com.config.Constantes;
-import tecnm.game.com.controller.dto.GameDto;
-import tecnm.game.com.controller.dto.ResponseGenerica;
+import tecnm.game.com.dto.GameDto;
+import tecnm.game.com.dto.ResponseGenerica;
 import tecnm.game.com.entidades.GameEntity;
 import tecnm.game.com.repositorio.GameRepositorio;
 import tecnm.game.com.service.GameService;

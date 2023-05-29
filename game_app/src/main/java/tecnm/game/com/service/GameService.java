@@ -2,8 +2,8 @@ package tecnm.game.com.service;
 
 import java.util.List;
 
-import tecnm.game.com.controller.dto.GameDto;
-import tecnm.game.com.controller.dto.ResponseGenerica;
+import tecnm.game.com.dto.GameDto;
+import tecnm.game.com.dto.ResponseGenerica;
 
 public interface GameService {
 

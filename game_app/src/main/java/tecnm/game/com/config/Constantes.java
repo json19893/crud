@@ -15,4 +15,15 @@ public class Constantes {
 	
 	public static final String ACTUALIZA_ERROR= "Ocurrio un error al actualizar ";
 	public static final String ACTUALIZA_EXITO= "Registro actualizado exitosamente";
+
+		
+	public static final String LOGIN_ERROR= "Ocurrio un error al iniciar sesión";
+	public static final String LOGIN_EXITO= "Ok";
+	public static final String LOGIN_SESSION_ACTIVA= "Existe una sesion activa,favor de validar";
+	public static final String LOGIN_NO_DATA= "Usuario o password incorrectos";
+
+	public static final String LOGOUT_ERROR= "Ocurrio un error al iniciar sesión";
+	public static final String LOGOUT_EXITO= "Desvinculado con exito";
+	public static final String LOGOUT_NO_DATA= "Usuario no encontrado";
+
 }

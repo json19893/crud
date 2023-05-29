@@ -1,4 +1,4 @@
-package tecnm.game.com.controller.dto;
+package tecnm.game.com.dto;
 
 
 
